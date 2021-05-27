@@ -14,9 +14,9 @@ namespace Week2.GestioneAutomobili
         {
             string path = Path.Combine(Environment
                 .GetFolderPath(Environment.SpecialFolder.Desktop),
-                "veicoli.txt");
+                "veicoli2.txt");
             try
-            {
+            { 
                 using(StreamWriter writer = File.CreateText(path))
                 {
                     foreach(Veicolo veicolo in veicoli)
